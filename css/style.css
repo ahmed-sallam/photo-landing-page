@@ -1,0 +1,98 @@
+
+/*	Photo Landing Page Template
+*	Made by Ahmed Sallam
+*	for learning perpose
+*	it's free for all.
+**/
+body{
+	background-image: url("../images/background.jpg");
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+	box-sizing: border-box;
+	color: white;
+    font-family: 'Titillium Web', sans-serif;
+}
+hr{
+	width: 50%;
+}
+header, .le-spacing,
+.bg-white h2, .bg-darck h2
+{
+	text-align: center;
+}
+header h1 {padding: 2rem;}
+article{
+	width: 90%;
+	height: auto;
+	margin: auto;
+}
+.main-section img{
+	width: 100%;
+	height: 430px;
+}
+.le-spacing{
+	letter-spacing: 0.5rem;
+	opacity: 0.3;
+}
+.bg-gray, .bg-white , .bg-darck , .bg-md , .bg-white-2{
+	margin: 0;
+	padding: 3rem 1rem;
+}
+.bg-white, .bg-white-2{
+	background-color: white;
+	color: black;
+}
+.bg-gray{
+	background-color: #e5e5e5;
+	color: black;
+	text-align: justify;
+}
+.grid-section{
+	background-color: #1f3e4f;
+	padding: 4rem;
+}
+.bg-darck{
+	background-color: #0d1a21;	
+	color: white;
+}
+.grid{
+	display: grid;
+	grid-template-columns: 1fr 1fr; 
+}	
+.grid img{
+	width: 100%;
+	height: auto;
+}
+.bg-md{
+	background-color: #1f3e4f;
+	color: white;
+	text-align: justify;
+}
+.bg-white-2{
+	text-align: justify;
+}
+footer{
+	text-align: center;
+	padding: 2rem 2rem;
+}
+footer i{
+	margin-right: 1rem;
+	margin-left: 1rem;
+	font-size: 26px;
+}
+footer i:hover{
+color: #0d1a21;
+}
+footer a{
+text-decoration: underline;
+color: white;
+}
+footer a:hover{
+color: #0d1a21;
+}
+@media (max-width: 1100px){
+	.grid{
+	grid-template-columns: 1fr; 
+}
+}
